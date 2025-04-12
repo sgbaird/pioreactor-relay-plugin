@@ -17,6 +17,16 @@ pios install-plugin pioreactor-relay-plugin   # to install on all Pioreactors in
 
 Or install through the web interface (_Plugins_ tab). This will install the plugin on all Pioreactors within the cluster.
 
+If using the most recent Pioreactor software version, use:
+
+```
+pio plugins install pioreactor-relay-plugin    # to install directly on the Pioreactor
+
+# OR, on the leader's command line:
+
+pios plugins install pioreactor-relay-plugin   # to install on all Pioreactors in a cluster
+```
+
 (Optional) Edit the following to your `config.ini`, or in the _Configurations_ tab on the web interface:
 
 ```
